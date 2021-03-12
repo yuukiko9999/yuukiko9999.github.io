@@ -175,9 +175,9 @@ a {
 
 /* ▼▼▼ スマホ用スタイル ▼▼▼ */
 @media(max-width: 599px) {
-  h1 { font-size: 20px; }
-  h2 { font-size: 17px; }
-  p, dt { font-size: 12px; }
+  h1 { font-size: 30px; }
+  h2 { font-size: 25px; }
+  p, dt { font-size: 15px; }
 
   .form-page-text {
     width: 70%;
@@ -190,7 +190,7 @@ a {
     width: 70%;
     margin: 0 auto;
     border-top: 2px solid #f08080;
-    padding: 30px;
+    padding: 20px;
   }
 
   .ly-cont input {
@@ -210,8 +210,9 @@ a {
 
   .annotation {
     float: left;
-    line-height: 26px;
-    margin-left: 20px;
+    line-height: 38px;
+    margin-left: 5px;
+    font-size: 0.8em;
   }
 
   .name-wrapper {
@@ -223,21 +224,22 @@ a {
   .ly-cont dt {
     display: inline-block;
     line-height: 40px;
+    width: 20%;
     float: left;
   }
 
   .spStyle-name {
-    width: 30px;
+    width: 50px;
   }
 
   .spStyle-address {
-    width: 60px;
+    width: 80px;
   }
 
   .ly-cont dd {
     display: inline-block;
     float: left;
-    width: 90%;
+    width: 80%;
     margin-bottom: 10px;
 
   }
@@ -249,7 +251,7 @@ a {
 
   .wide {
     box-sizing: border-box;
-    width:300px;
+    width: 100%;
   }
 
   .description-wrapper {
