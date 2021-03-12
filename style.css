@@ -47,19 +47,19 @@ main {
 
 .dummy1 {
   /* background-color: #00fa9a; */
-  background-image: url(".././img/top.jpg");
+  background-image: url("./top.jpg");
   background-size: cover;
   width: 100%;
 }
 .dummy2 {
   /* background-color: #00ced1; */
-  background-image: url(".././img/top.jpg");
+  background-image: url("./top.jpg");
   background-size: cover;
   width: 100%;
 }
 .dummy3 {
   /* background-color: #00bfff; */
-  background-image: url(".././img/top.jpg");
+  background-image: url("./top.jpg");
   background-size: cover;
   width: 100%;
 }
@@ -128,19 +128,19 @@ main {
 }
 
 .content1 {
-  background-image: url(".././img/kigyouriren.jpg")
+  background-image: url("./kigyouriren.jpg")
 }
 
 .content2 {
-  background-image: url(".././img/syuukyakuzigyou.jpg")
+  background-image: url("./syuukyakuzigyou.jpg")
 }
 
 .content3 {
-  background-image: url(".././img/insyokuzigyou.jpg")
+  background-image: url("./insyokuzigyou.jpg")
 }
 
 .content4 {
-  background-image: url(".././img/syouhinkaihatuzigyou.jpg")
+  background-image: url("./syouhinkaihatuzigyou.jpg")
 }
 
 .right-text {
