@@ -2,7 +2,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>the works project</title>
-	  <link rel="stylesheet" href="./css/style_form.css">
+	  <link rel="stylesheet" href="./style_form.css">
 	</head>
 	<body>
 		<?php
@@ -80,7 +80,7 @@
 		?>
 
 		<div class="top-wrapper">
-		  <img class="logo-image" src="./img/logo1.jpg">
+		  <img class="logo-image" src="./logo1.jpg">
 		  <div class="page-title">
 		    <h1>CONTACT</h1>
 		    <p>お問い合わせ</p>
