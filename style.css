@@ -1,0 +1,356 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+.float-clear {
+  clear: both;
+}
+
+body {
+  min-width: 1200px;
+
+}
+
+main {
+  width: 100%
+
+}
+
+.top-wrapper {
+  width: 100%;
+  height: 650px;
+}
+
+.slide-img {
+  position: relative;
+
+}
+
+.dummy-slide {
+  height: 650px;
+
+  position:absolute;
+}
+
+.dummy1 {
+  /* background-color: #00fa9a; */
+  background-image: url(".././img/top.jpg");
+  background-size: cover;
+  width: 100%;
+}
+.dummy2 {
+  /* background-color: #00ced1; */
+  background-image: url(".././img/top.jpg");
+  background-size: cover;
+  width: 100%;
+}
+.dummy3 {
+  /* background-color: #00bfff; */
+  background-image: url(".././img/top.jpg");
+  background-size: cover;
+  width: 100%;
+}
+
+.slide-img h1 {
+  position: absolute;
+  z-index: 10;
+  top: 360px;
+  left: 72px;
+  color: #fff;
+  font-size: 40px;
+}
+
+.information-wrapper {
+  /*background-color: #808080;*/ /*構成確認用 */
+
+  text-align: center; /* 子要素を中揃え */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.information-wrapper h1 {
+  color: #b22222;
+  font-weight: normal;
+}
+
+.info {
+  /*background-color: #fff;*/ /*構成確認用 */
+
+  width: 800px;
+  display:inline-block; /* text-alignを適用するため */
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.info dt {
+  float: left;
+}
+
+.info dd {
+  float: left;
+}
+
+.contents-wrapper {
+  /*background-color: #808080;*/ /*構成確認用 */
+
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  background-color: #fff; /*構成確認用 */
+
+  width: 1200px;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.contents-wrapper .content:last-child {
+  margin-bottom: 0;
+}
+
+.content1 {
+  background-image: url(".././img/kigyouriren.jpg")
+}
+
+.content2 {
+  background-image: url(".././img/syuukyakuzigyou.jpg")
+}
+
+.content3 {
+  background-image: url(".././img/insyokuzigyou.jpg")
+}
+
+.content4 {
+  background-image: url(".././img/syouhinkaihatuzigyou.jpg")
+}
+
+.right-text {
+  background-color: #a9a9a9; /*構成確認用 */
+
+  height: 540px;
+  width: 420px;
+
+  position: absolute;
+  right: 25px;
+  bottom: -40px;
+  z-index: 10;
+}
+
+.right-text h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.left-text {
+  background-color: #a9a9a9; /*構成確認用 */
+
+  height: 540px;
+  width: 420px;
+
+  position: absolute;
+  left: 25px;
+  bottom: -40px;
+  z-index: 10;
+}
+
+.left-text h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.text {
+  width: 350px;
+  margin: 0 auto;
+}
+
+
+.blogs-wrapper {
+  /*background-color: #a9a9a9;*/ /*構成確認用 */
+
+}
+
+.blogs-wrapper h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.blogs-heading {
+  /*background-color: #696969;*/ /*構成確認用 */
+
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog {
+  /*background-color: #fff;*/ /*構成確認用 */
+
+  margin-right: 60px;
+  width: 360px;
+  float: left;
+}
+
+.lastBlog {
+  margin-right: 0;
+}
+
+
+
+.blog-img {
+  background-color: #808080; /*構成確認用 */
+
+  width: 360px;
+  height: 280px;
+}
+
+.blog-text {
+  background-color: #f0f8ff; /*構成確認用 */
+
+  width: 360px;
+  height: 150px;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn a {
+  background-color: #808080;
+  display: inline-block;
+  line-height: 40px;
+  margin: 20px 0;
+  padding: 0 30px;
+}
+
+
+.photo-wrapper {
+  /*background-color: #a9a9d9;*/ /*構成確認用 */
+
+}
+
+.photo-wrapper h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.photo-heading {
+  /*background-color: #696969;*/ /*構成確認用 */
+
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo-img {
+  background-color: #808080; /*構成確認用 */
+
+  width: 360px;
+  height: 280px;
+  margin-right: 60px;
+  margin-bottom: 40px;
+  float: left;
+}
+
+.photo-img-last {
+  margin-right: 0;
+}
+
+footer {
+  background-color: #a9a9a9; /*構成確認用 */
+
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.footer-left {
+  /*background-color: #f0f8ff;*/ /*構成確認用 */
+
+  width: 300px;
+  margin-bottom: 50px;
+  float: left;
+}
+
+.footer-right {
+  /*background-color: #f0f8ff;*/ /*構成確認用 */
+
+  width: 230px;
+  float: right;
+}
+
+.footer-right img {
+width: 115px;
+}
+
+.copy-right {
+  text-align: center;
+}
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.menu-btn {
+  background-color: #d3d3d3;
+  width: 60px;
+  line-height:50px;
+  text-align: center;
+  float: right;
+
+  transform: translateX(220px);
+  transition: all 0.5s;
+}
+
+.menu-list {
+  background-color: #fff;
+  width: 220px;
+  height: 500px;
+  float: right;
+  transform: translateX(220px); /* menu-btnが押された時だけ表示 */
+  transition: all 0.5s;
+  opacity: 0.9;
+}
+
+.menu {
+  display: inline-block;
+  margin-left: 35px;
+  margin-top: 35px;
+  position: relative; /* 下線アニメーション用 */
+}
+
+.menu a::after {
+  position: absolute;
+  content: '';
+  width: 0%;
+  left: 0;
+  bottom: -1px;
+  height: 1px;
+  background-color: #000;
+  transition: all 0.5s;
+}
+
+.menu:hover a::after {
+  width: 100%;
+}
